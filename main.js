@@ -5,10 +5,24 @@ var myToDoList = [ "১) রাত ৮ টা বাজে মডিউল আ�
 
 
 
-for (var i = 0; i < myToDoList.length; i++) {
-   for(var j = 0; j < 10; j++ )
+// for (var i = 0; i < myToDoList.length; i++) {
+//    for(var j = 0; j < 10; j++ )
+//     {
+//          console.log(myToDoList[i]);
+//     }
+    
+// }
+
+
+
+
+for(var j = 1; j <= 10; j++ ) {
+     console.log(" Loop No. " + j);
+   for (var i = 0; i < myToDoList.length; i++)
     {
+     
          console.log(myToDoList[i]);
+        
     }
     
 }
@@ -18,7 +32,6 @@ for (var i = 0; i < myToDoList.length; i++) {
  
 //     var elementList = myToDoList[i];
 //     console.log(elementList);
-//     i++;
     
 // }
 
